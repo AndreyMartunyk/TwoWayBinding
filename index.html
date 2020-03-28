@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="startdate" type="text">
+        <input id="enddate" type="text">
+      </div>
+      <div>
+        <select id="room">
+            <option value="none" hidden="">Выберите колл-во комнат</option>
+            <option value="studio">studio</option>
+            <option value="1bed">1bed</option>
+            <option value="2bed">2bed</option>
+        </select>
+      </div>
+      <div><button onClick="calc">calculate</button></div>
+      <div>
+        <input type="text" readonly id="sum" />
+      </div>
+      <script src="app.js"></script>
+      <script src="app2.js"></script>
+</body>
+</html>
